@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class cc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double r = 1.0,a=1.0,pi=Math.PI,area;
+        System.out.println("Yarıçapı giriniz:");
+        r=sc.nextDouble();
+        System.out.println("Merkez açıyı giriniz:");
+        a=sc.nextDouble();
+       area=(r*r*pi*a/360);
+
+
+        System.out.println("Alan:" + area);
+
+
+
+    }
+}
