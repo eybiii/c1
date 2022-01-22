@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class cc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double armut=2.14,elma=3.67,domates=1.11,patlican=5.0,muz=0.95,a,e,d,p,m;
+        System.out.println("Armut kaç kilo(kg)?:");
+        a=sc.nextDouble();
+        System.out.println("Elma kaç kilo(kg)?:");
+        e=sc.nextDouble();
+        System.out.println("Domates kaç kilo(kg)?:");
+        d=sc.nextDouble();
+        System.out.println("Muz kaç kilo(kg)?:");
+        m=sc.nextDouble();
+        System.out.println("Patlıcan kaç kilo(kg)?:");
+        p=sc.nextDouble();
+
+        System.out.println("Toplam:" + (a*armut+e*elma+d*domates+m*muz+p*patlican));
+
+
+
+    }
+}
