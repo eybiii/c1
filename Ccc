@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class cc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int fizik, kimya, turkce, tarih, muzik, mat;
+        System.out.println("Fizik Notu:");
+        fizik = sc.nextInt();
+        System.out.println("Kimya Notu:");
+        kimya = sc.nextInt();
+        System.out.println("Türkçe Notu:");
+        turkce = sc.nextInt();
+        System.out.println("Tarih Notu:");
+        tarih = sc.nextInt();
+        System.out.println("Muzik Notu:");
+        muzik = sc.nextInt();
+        System.out.println("Matematik Notu:");
+        mat = sc.nextInt();
+        double ort;
+        ort = ((fizik + kimya + turkce + tarih + muzik + mat) / 6.0);
+        System.out.println("Ortalama:" + ort);
+        if (ort >= 60.0) {
+            System.out.println("Sınıfı geçtiniz.");
+        } else {
+            System.out.println("Sınıfta kaldınız.");
+        }
+
+    }
+}
