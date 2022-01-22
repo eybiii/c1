@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class cc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double r = 1.0,a=1.0,result;
+        System.out.println("Kütlenizi giriniz(kg):");
+        r=sc.nextDouble();
+        System.out.println("Boyunuzu giriniz(m):");
+        a=sc.nextDouble();
+       result=(r/a/a);
+
+
+        System.out.println("Vucud kitle endeksi:" + result);
+
+
+
+    }
+}
