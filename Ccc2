@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class cc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double ac = 1.0;
+        System.out.println("Ana Para:");
+        ac=sc.nextDouble();
+        double ort;
+        ort = ((ac)+ac*18.0 / 100.0);
+        System.out.println("Kdv'li Fiyat:" + ort);
+        System.out.println("Kdv Tutarı:"+ac*18.0 / 100.0);
+
+
+    }
+}
