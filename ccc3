@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class cc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double ac = 1.0,bc=1.0,dc=1.0;
+        System.out.println("a kenarı:");
+        ac=sc.nextDouble();
+        System.out.println("b kenarı:");
+        bc=sc.nextDouble();
+        dc=Math.sqrt(ac*ac+bc*bc);
+
+        System.out.println("c kenarı:" + dc);
+
+
+
+    }
+}
